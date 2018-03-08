@@ -10,3 +10,16 @@ import Foundation
 
 print("Hello, World!")
 
+var sum = 0
+
+for i in 1...1000 {
+    // Checking if multiple of 3 is below 1000
+    if (i * 3) < 1000 {
+        sum = sum + (i * 3)
+    }
+    // Checking if multiple of 5 is below 1000
+    if ((i * 5) < 1000) && ((1 * 3) < 1000) {
+        sum = sum + (i * 5)
+    }
+}
+
